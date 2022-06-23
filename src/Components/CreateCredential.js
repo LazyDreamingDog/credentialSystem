@@ -17,7 +17,7 @@ import {bindReporter} from "web-vitals/dist/modules/lib/bindReporter";
 
 const Contex = createContext(undefined);
 
-const ip_port = "http://192.168.80.130:8080/";
+const ip_port = "http://139.9.181.146:8080/";
 
 const { Step } = Steps;
 const { Panel } = Collapse;
