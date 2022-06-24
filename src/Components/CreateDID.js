@@ -9,7 +9,7 @@ import Helmet from 'react-helmet'
 
 const Contex = createContext(undefined);
 
-const ip_port = "http://139.159.141.28:8080/";
+const ip_port = "//139.159.141.28:8080/";
 
 const { Step } = Steps;
 const { Panel } = Collapse;
