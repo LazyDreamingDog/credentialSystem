@@ -1,5 +1,6 @@
 import React, {useState, createContext, useContext} from 'react';
 import 'antd/dist/antd.min.css';
+import Helmet from "react-helmet";
 import '../index.css';
 import { Form, Input, Select, Steps, Button, message, Space, Collapse, Result } from 'antd';
 import {useNavigate} from "react-router-dom";
@@ -197,6 +198,11 @@ const CreateDid = () => {
     };
 
     return (
+        <Helmet
+            meta = {[
+            {http-equiv:"Content-Security-Policy", content:"upgrade-insecure-requests"}
+        ]}
+        />
         <Contex.Provider value={{didpath, setDidpath, diddoc}}>
             <>
                 <Steps current={current}>
