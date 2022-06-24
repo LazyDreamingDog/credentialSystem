@@ -8,7 +8,7 @@ import axios from "axios";
 
 const Contex = createContext(undefined);
 
-const ip_port = "https://139.9.181.146:8080/";
+const ip_port = "https://139.159.141.28:8080/";
 
 const { Step } = Steps;
 const { Panel } = Collapse;
