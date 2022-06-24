@@ -200,7 +200,7 @@ const CreateDid = () => {
         <>
             <Helmet
                 meta = {[
-                    {httpEquiv:"Content-Security-Policy",content:"upgrade-insecure-requests"}
+                    {http-equiv:"Content-Security-Policy",content:"upgrade-insecure-requests"}
                 ]}
             />
             <Contex.Provider value={{didpath, setDidpath, diddoc}}>
