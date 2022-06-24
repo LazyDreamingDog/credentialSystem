@@ -8,7 +8,7 @@ import axios from "axios";
 
 const Contex = createContext(undefined);
 
-const ip_port = "https://139.159.141.28:8080/";
+const ip_port = "http://139.159.141.28:8080/";
 
 const { Step } = Steps;
 const { Panel } = Collapse;
@@ -165,6 +165,7 @@ const CreateDid = () => {
         axios.get(ip_port + 'createWeId', {})
             .then(res => {
                 console.log(res.data);
+                console.log("qgh13.28");
                 setDiddoc(res.data);
                 setCurrent(current + 1);
             });
