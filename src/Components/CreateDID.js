@@ -162,10 +162,10 @@ const CreateDid = () => {
     });
 
     const createdid = () => {
+        console.log("qgh13.28");
         axios.get(ip_port + 'createWeId', {})
             .then(res => {
                 console.log(res.data);
-                console.log("qgh13.28");
                 setDiddoc(res.data);
                 setCurrent(current + 1);
             });
