@@ -1,5 +1,5 @@
 import React from 'react';
-import './newApp.css';
+import './App.css';
 import {Helmet} from "react-helmet";
 import {PauseCircleTwoTone} from "@ant-design/icons";
 
