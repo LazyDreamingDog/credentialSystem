@@ -26,7 +26,7 @@ const App = () => (
                     匿名凭证系统
                 </div>
                 <div className="index_box">
-                    <span><a style={{color: '#ffffff80'}} href="http://119.3.139.4">进入系统</a></span>
+                    <span><a style={{color: '#ffffff80'}} href="http://122.112.225.173:3000">进入系统</a></span>
                 </div>
             </div>
         </div>
